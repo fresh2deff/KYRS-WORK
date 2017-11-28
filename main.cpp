@@ -2,13 +2,24 @@
 #include <iostream>
 #include <math.h>
  
-int main()//=========================================================
+
+    
+STreug(int a, int b, int y)//=========================================================
 {
-    int a = 20;
-    int b = 8;
-    double Y = 45;// градусы
-    double S = a*b*sin(Y*M_PI/180)/2;
+   if (a<0||b<0||y<0||y>180){
+   	std::cout << "Eror" << std::endl;
+   }
+
+   
+    
+    double S = a*b*sin(y*M_PI/180)/2;
     std::cout << S << std::endl;    
  
     return 0;
 }
+
+ main(){
+ 	
+ 	STreug(20, 20, 90);
+ 	
+ }
