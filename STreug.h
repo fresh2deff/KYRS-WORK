@@ -1,3 +1,6 @@
+#include <iostream>
+#include <math.h>
+
 STreug(int a, int b, int y)
 {
    if (a<0||b<0||y<0||y>180){
