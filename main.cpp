@@ -7,7 +7,7 @@
 
 
  main(){
- 	
- 	STreug(20, 20, 90);
+ 	for (int a, b, c; a<100; a++, b++, c++)
+ 	STreug(a, b, c);
  	
  }
